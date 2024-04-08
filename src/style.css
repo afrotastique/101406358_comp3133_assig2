@@ -1,0 +1,40 @@
+/* Global styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header styles */
+  
+  .navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5em;
+  }
+  
+  .navbar .btn {
+    margin-left: auto;
+  }
+  
+  /* Main content styles */
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Footer styles */
+  
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }

@@ -1,0 +1,41 @@
+<section>
+    <div>
+      <div>
+        <div>
+          <div>
+            <div>
+              <div>
+                <h2>Update Employee</h2>
+                <div>
+                  <div>
+                    <input type="name" id="typeEmailX" [(ngModel)]="first_name" value="{{ first_name }}" required />
+                    <label for="typeEmailX">First Name</label>
+                  </div>
+                  <div>
+                    <input type="name" id="typeEmailX" [(ngModel)]="last_name" required />
+                    <label for="typeEmailX">Last Name</label>
+                  </div>
+                  <div>
+                    <input type="email" id="typeEmailX" [(ngModel)]="email" required />
+                    <label for="typeEmailX">Email</label>
+                  </div>
+                  <div>
+                    <input type="text" id="typeEmailX" [(ngModel)]="gender" required />
+                    <label for="typeEmailX">Gender</label>
+                  </div>
+                  <div>
+                    <input type="number" id="typeEmailX" [(ngModel)]="salary" required />
+                    <label for="typeEmailX">Salary</label>
+                  </div>
+                  <button (click)="handleSave()" type="submit">Update Employee</button>
+                  <br>
+                  <br>
+                  <button routerLink="/employees" type="submit">Cancel</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>

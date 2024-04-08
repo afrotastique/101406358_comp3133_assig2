@@ -1,0 +1,37 @@
+<div>
+    <div>
+      <h2>View Employee</h2>
+      <table>
+        <tbody>
+          <tr>
+            <th>First Name</th>
+            <td>{{ employee.first_name }}</td>
+          </tr>
+          <tr>
+            <th>Last Name</th>
+            <td>{{ employee.last_name }}</td>
+          </tr>
+          <tr>
+            <th>Email</th>
+            <td>{{ employee.email }}</td>
+          </tr>
+          <tr>
+            <th>Gender</th>
+            <td>{{ employee.gender }}</td>
+          </tr>
+          <tr>
+            <th>Salary</th>
+            <td>{{ employee.salary | currency }}</td>
+          </tr>
+          <tr>
+            <td>
+              <button type="button" (click)="handleEdit(employee)">Edit</button>
+            </td>
+            <td>
+              <button type="button" routerLink="/employees">Cancel</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
